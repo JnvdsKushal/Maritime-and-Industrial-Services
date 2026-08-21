@@ -15,6 +15,7 @@ export default function Footer() {
       {/* Main Footer */}
       <div className="container py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+
           {/* Company Info */}
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
@@ -24,22 +25,33 @@ export default function Footer() {
                 className="h-8 w-8 object-contain"
               />
               <div>
-                <div className="font-bold text-sm">EMIES SARLU</div>
-                <div className="text-xs opacity-75">{t.footer.tagline}</div>
+                <div className="font-bold text-sm text-white">
+                  EMIES SARLU
+                </div>
+                <div className="text-xs text-white/75">
+                  {t.footer.tagline}
+                </div>
               </div>
             </Link>
-            <p className="text-sm opacity-90 leading-relaxed">
+
+            <p className="text-sm text-white/85 leading-relaxed">
               {t.footer.description}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-bold mb-4 text-sm uppercase tracking-wide">{t.footer.servicesHeading}</h4>
-            <ul className="space-y-2 text-sm opacity-90">
+            <h4 className="font-bold mb-4 text-sm uppercase tracking-wide text-white">
+              {t.footer.servicesHeading}
+            </h4>
+
+            <ul className="space-y-2 text-sm text-white/85">
               {t.footer.serviceLinks.map((label, index) => (
                 <li key={label}>
-                  <Link href={serviceLinkHrefs[index]} className="hover:opacity-100 transition-opacity">
+                  <Link
+                    href={serviceLinkHrefs[index]}
+                    className="hover:text-white transition-opacity"
+                  >
                     {label}
                   </Link>
                 </li>
@@ -49,11 +61,17 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h4 className="font-bold mb-4 text-sm uppercase tracking-wide">{t.footer.companyHeading}</h4>
-            <ul className="space-y-2 text-sm opacity-90">
+            <h4 className="font-bold mb-4 text-sm uppercase tracking-wide text-white">
+              {t.footer.companyHeading}
+            </h4>
+
+            <ul className="space-y-2 text-sm text-white/85">
               {t.footer.companyLinks.map((label, index) => (
                 <li key={label}>
-                  <Link href={companyLinkHrefs[index]} className="hover:opacity-100 transition-opacity">
+                  <Link
+                    href={companyLinkHrefs[index]}
+                    className="hover:text-white transition-opacity"
+                  >
                     {label}
                   </Link>
                 </li>
@@ -63,18 +81,26 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-bold mb-4 text-sm uppercase tracking-wide">{t.footer.contactHeading}</h4>
-            <div className="space-y-3 text-sm opacity-90">
+            <h4 className="font-bold mb-4 text-sm uppercase tracking-wide text-white">
+              {t.footer.contactHeading}
+            </h4>
+
+            <div className="space-y-3 text-sm text-white/85">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
                 <span>{t.footer.location}</span>
               </div>
+
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <a href="mailto:info@emies-sarlu.com" className="hover:opacity-100 transition-opacity">
+                <a
+                  href="mailto:info@emies-sarlu.com"
+                  className="hover:text-white transition-opacity"
+                >
                   info@emies-sarlu.com
                 </a>
               </div>
+
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 flex-shrink-0" />
                 <span>{t.footer.emergency}</span>
@@ -86,14 +112,23 @@ export default function Footer() {
         <Separator className="bg-white/20" />
 
         {/* Bottom Footer */}
-        <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-90">
-          <p>
-            &copy; {currentYear} EMIES SARLU. {t.footer.copyright}
-          </p>
+<div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/85">
+  <p className="text-white/85">
+    &copy; {currentYear} EMIES SARLU. {t.footer.copyright}
+  </p>
+
           <div className="flex gap-6">
-            <a href="#" className="hover:opacity-100 transition-opacity">{t.footer.privacy}</a>
-            <a href="#" className="hover:opacity-100 transition-opacity">{t.footer.terms}</a>
-            <a href="#" className="hover:opacity-100 transition-opacity">{t.footer.compliance}</a>
+            <a href="#" className="hover:text-white transition-opacity">
+              {t.footer.privacy}
+            </a>
+
+            <a href="#" className="hover:text-white transition-opacity">
+              {t.footer.terms}
+            </a>
+
+            <a href="#" className="hover:text-white transition-opacity">
+              {t.footer.compliance}
+            </a>
           </div>
         </div>
       </div>

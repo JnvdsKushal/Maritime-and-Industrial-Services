@@ -66,14 +66,14 @@ export default function About() {
           <div className="grid grid-cols-1 gap-4">
             <div className="rounded-lg overflow-hidden shadow-lg h-64 md:h-80 border-l-4 border-accent">
               <img
-                src="/manus-storage/industrial-maintenance_403910e1.png"
+                src="https://images.openai.com/static-rsc-4/jTuMaqFq_g4SonrDmw14jlOyFOy0YqepUPI-sQGIsRp1OlLQf6tEbICVNMN5bJXXKwJMWsVoddooLkj9UAU9znyJuGsFPu194N5e4FGLl0wAKLrKvsVyxHpMmqNGdmSCrCab35iVvWFKKVAyZcHCiNvQnuqY9QaIJprPMTb5XoHoSUpr4U24gUjL31kbkZW2?purpose=fullsize"
                 alt="Industrial Maintenance Services"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg h-64 md:h-80 border-l-4 border-accent">
               <img
-                src="/manus-storage/vessel-inspection_600aad9b.png"
+                src="https://images.openai.com/static-rsc-4/zcnSvpEQhOLR_ar5YRRlURujBOfWP4_O9J8hNtJO223lI0Rvnxu3h2P52WGFixNSFoLDNozJqtl35g64JlRtFhsnOngIHyVQOftjsnphsTrO2UjYdsMcXOFZ9hX0LGHYi83rMxXY6UMOuhtww8y3zyGYIJHXlRnN3KkqbiCNfkhqnyL8VyKT4pLR9QwoXnBL?purpose=fullsize"
                 alt="Vessel Inspection and Surveying"
                 className="w-full h-full object-cover"
               />

@@ -16,7 +16,7 @@ export default function AboutPreview() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="rounded-lg overflow-hidden shadow-lg h-64 md:h-96 border-l-4 border-accent order-2 lg:order-1">
             <img
-              src="/manus-storage/industrial-maintenance_403910e1.png"
+              src="https://images.openai.com/static-rsc-4/FRgCzPK4MYKIT5TlFK5BDnqagtuPnmZae10GAoNLXne5VJp6yhxkOsH0GHT2dT55b3t1TCEhBBUz9j7MCHigA_dSRtGF81iz3uplZhlPkpSYEa6G3SBtTshIPmQP_r_2dFBRlNceDjaXr5N1bhl9Q9DTeKZ-fdNeicqZkbcqLlcj-cgyrRRQTG7oVEUwpbQ_?purpose=fullsize"
               alt="EMIES SARLU operations"
               className="w-full h-full object-cover"
             />

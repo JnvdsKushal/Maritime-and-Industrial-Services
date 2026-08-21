@@ -34,9 +34,11 @@ export default function ServicesPreview() {
                 key={service.title}
                 className="p-8 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-l-4 border-l-accent border border-border bg-white h-full"
               >
-                <div className={`p-3 rounded-lg bg-primary/10 ${serviceColors[index]} inline-flex mb-4`}>
-                  <Icon className="w-6 h-6" />
-                </div>
+<div
+  className={`w-fit h-fit p-3 rounded-lg bg-primary/10 ${serviceColors[index]} flex items-center justify-center mb-4`}
+>
+  <Icon className="w-6 h-6 shrink-0" />
+</div>
                 <h3 className="text-lg font-bold text-foreground mb-2">
                   {service.title}
                 </h3>
