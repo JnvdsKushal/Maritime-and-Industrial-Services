@@ -211,7 +211,7 @@ const en: Translations = {
     info: [
       { title: 'Location', details: ['Gabon', 'International Operations'] },
       { title: 'Emergency Response', details: ['24/7 Available for Urgent Matters'] },
-      { title: 'Email', details: ['info@emies-sarlu.com'] },
+      { title: 'Email', details: ['info@emiesmaritime.com'] },
       { title: 'Availability', details: ['Round-the-Clock Support'] },
     ],
     formHeading: 'Send us a Message',

@@ -216,7 +216,7 @@ const fr = {
     info: [
       { title: 'Localisation', details: ['Gabon', 'Opérations Internationales'] },
       { title: 'Intervention d\u2019Urgence', details: ['Disponible 24h/24 pour les urgences'] },
-      { title: 'Email', details: ['info@emies-sarlu.com'] },
+      { title: 'Email', details: ['info@emiesmaritime.com'] },
       { title: 'Disponibilité', details: ['Assistance en continu'] },
     ],
     formHeading: 'Envoyez-nous un message',

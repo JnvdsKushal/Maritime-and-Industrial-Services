@@ -94,10 +94,10 @@ export default function Footer() {
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 flex-shrink-0" />
                 <a
-                  href="mailto:info@emies-sarlu.com"
+                  href="mailto:info@emiesmaritime.com"
                   className="hover:text-white transition-opacity"
                 >
-                  info@emies-sarlu.com
+                  info@emiesmaritime.com
                 </a>
               </div>
 
